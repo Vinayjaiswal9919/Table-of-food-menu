@@ -1,0 +1,43 @@
+body{
+
+    background-size: cover;
+    background-position: center;
+     background-repeat: no-repeat;
+     color: rgb(0, 35, 148);
+     font-weight: bolder;
+     font-size: larger;
+}
+h1{
+    
+    font-weight: bolder;
+}
+.container{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+  
+}
+.table-container{
+   flex: 1;
+   padding: 10px;
+   box-sizing: border-box;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    height: 280px;
+    border-width: 3px;
+    border-color:rgb(0, 146, 73);
+  font-weight: bold;
+   font-size: larger;
+
+}
+h1{
+    color: rgb(255, 255, 255);
+    background-color:rgba(0, 165, 49, 0.96);
+}
+caption{
+
+   color:yellow;
+   background-color: rgb(4, 55, 119);
+}
